@@ -1,0 +1,32 @@
+package com.bptn.course._01_variables;
+
+public class VariableOperations {
+
+	public static void main(String[] args) {
+		int num1 = 2;
+		int num2 = 4;
+		
+		int totalNumber = num1 + num2;
+		int subNumber = num2 - num1;
+		int mulNumber = num1 * num2;
+		int divNumber = num2 / num1;
+		
+		System.out.println("Original values are: " + num1 + ", " + num2);
+		System.out.println("The addition of the two numbers are: " + totalNumber);
+		System.out.println("The subtraction of the two numbers are: " + subNumber);
+		System.out.println("The multiplication of the two numbers are: " + mulNumber);
+		System.out.println("The division of the two numbers are: " + divNumber);
+		
+		num1 = 4;
+		num2 = 8;
+		
+		System.out.println("New values are: " + num1 + ", " + num2);
+		
+		char c = 'F';
+		String name = "Farrell";
+		System.out.println("Character is : " + c);
+		System.out.println("My name is: " + name);
+		
+	}
+
+}

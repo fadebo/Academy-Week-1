@@ -1,0 +1,28 @@
+package com.bptn.course.hello;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+
+		 int[] highScores = new int[5];
+
+	     // Print initial highScore
+	     System.out.println(highScores[0]);
+
+	     // put values in highScore using an indexed variable
+	     highScores[0] = 99;
+	     highScores[1] = 98;
+	     highScores[2] = 98;
+	     highScores[3] = 88;
+	     highScores[4] = 68;
+
+	     // Print first highScore at index 0
+	     System.out.println(highScores[0]);
+	     
+	     highScores = new int[6];
+	     highScores[5] = 95;
+	     System.out.println(highScores[5]);
+		
+	}
+
+}
